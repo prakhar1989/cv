@@ -1,0 +1,110 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}       
+
+% moderncv themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                             % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Prakhar}{Srivastav}
+\address{6-19 Salmiya}{Kuwait, 13003}
+\phone[mobile]{+965 9728 0350}
+\email{prakhar1989@gmail.com}
+\homepage{prakhar.me}
+%\social[linkedin]{bertjwregeer}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{bertjwregeer}                             % optional, remove / comment the line if not wanted
+%\social[github]{bertjwregeer}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+
+%------- EDUCATION ---------%
+\section{Education}
+\cventry{2013--2011}{PGDM}{Indian Institute of Management Calcutta}{India}{}{ \newline{Ranked in top 10 percent of the batch}}
+\cventry{2011--2007}{B.E.(Hons)}{Birla Institute of Technology and Science, Pilani}{Goa, India}{}{Computer Science Engineering - GPA: 7.8/10}
+
+%------- SKILLS ---------%
+\section{Skills}
+\cvitem{Languages}{Python, Javascript, Ruby, HTML5/CSS3, Go, Scala, Octave, Java, C/C++}
+\cvitem{Frameworks}{Django, Ruby on Rails, Node.js, Flask, Sinatra, Backbone, Angular, jQuery, SASS, Less}
+\cvitem{Cloud}{Heroku, VPS, Google App Engine}
+\cvitem{Databases}{MySQL (MariaDB), SQLite 3 and MongoDB}
+\cvitem{Versioning}{Git and Subversion}
+\cvitem{OS}{Linux (Ubuntu, Cent OS), Mac OS X (10.3 - 10.9), Windows}
+
+
+\section{Experience}
+\subsection{Professional}
+\cventry{2012--current}{Lead Software Engineer}{Tumble Inc}{Parker, CO}{}{
+\begin{itemize}
+\item Lead generation and preparing quotes for proposals
+\item Work with clients to define project scope and timeline of deliverables
+\item Develop custom software to meet client needs in C++ and Python
+\item Development of websites using Python (Pyramid Web Framework, Mako, SQLAlchemy) with PostgreSQL backend database
+\end{itemize}}
+
+\cventry{2002--2013}{System Administrator}{osnn.net}{}{}{
+\begin{itemize}
+\item Administered hosting for a variety of online websites using Apache, PHP, and qmail on FreeBSD. 
+\item Monitor services for attempted intrusions and outdated software, and update as required
+\item Migrated website from one location to another with zero downtime
+\end{itemize}}
+
+\subsection{Intern}
+
+\cventry{2012}{Marketing Intern}{Heinz Private Limited}{Mumbai, India}{}{
+\begin{itemize}
+\item Drafted and assisted in implementing a promotions plan to drive sales of new SKUs of Complan.
+\item Analyzed the entire marketing mix for new SKUs, gave suggestions to improve visibility, packaging and co-branding
+\item Conducted extensive market research to understand consumer preferences for jar usage and consumer perception for offers
+\end{itemize}
+}
+
+\cventry{2011}{Developer Intern}{Travelocity, Sabre Holdings}{Bangalore, India}{}{
+\begin{itemize}
+\item Awarded pre-placement offer for performance and winning affiliate marketing competition during internship.
+\item Successfully deployed an error-checking script to optimize user logging, worked on the mapper algorithm to increase its scalability.
+\end{itemize}
+}
+
+\subsection{Freelancer}
+\cventry{2013}{Full Stack Developer}{FMS Fiesta}{PHP, Yii, jQuery}{}{
+\begin{itemize}
+\item Designed and developed the website for one of the largest cultural fests held by an Indian Business School - Faculty of Management Studies, Delhi
+\end{itemize}}
+
+\cventry{2012}{Rails Developer}{OhMyGreen}{Ruby on Rails, Facebook API}{}{
+\begin{itemize}
+\item Single-handedly ported a PHP Symfony app to Ruby on Rails for OhMyGreen (A silicon valley e-commerce startup) featuring a complete registration and referral system.
+\end{itemize}
+}
+
+\section{Projects}
+\cvitem{Newman}{Newman is a command-line collection runner for Postman. With Newman, postman users can integrate Postman collections with their build system or run automated tests for their API through a cron job. One can also use Newman as a grunt plugin to run their API tests any time you save your code in your editor. Newman is available as a package on NPM \url{https://www.npmjs.org/package/newman}}
+\cvitem{Postman Interceptor}{Postman Interceptor is a chrome extension that gives Postman wings! It enables Postman to send restricted headers i.e. headers that cannot be sent via XmlHttpRequest like User-Agent, Referrer etc. and send cookie information with any request. Available on \href{https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo}{chrome web store.}}
+
+\section{Interests}
+\cvitem{Languages}{Love learning and trying out new programming languages (esp functional)}
+\cvitem{Blogging}{I maintain a frequently updated tech blog at http://prakhar.me/}
+\cvitem{MOOCs}{Algorithms, Statistics, Data Visualization and Machine Learning.}
+\cvitem{Sports}{Competitive Swimmer. Play squash for leisure. Represented State for Basketball}
+
+\clearpage
+\end{document}
