@@ -2,7 +2,7 @@
 
 % moderncv themes
 \moderncvstyle{casual}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{grey}                             % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{blue}                             % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -38,22 +38,21 @@
 %------- SKILLS ---------%
 \section{Skills}
 \cvitem{Languages}{Python, Javascript, Ruby, HTML5/CSS3, Go, Scala, Octave, Java, C/C++}
-\cvitem{Frameworks}{Django, Ruby on Rails, Node.js, Flask, Sinatra, Backbone, Angular, jQuery, SASS, Less}
+\cvitem{Frameworks}{Django, Ruby on Rails, Node.js, Flask, Sinatra, Backbone, jQuery, SASS, Less}
 \cvitem{Cloud}{Heroku, VPS, Google App Engine}
 \cvitem{Databases}{MySQL (MariaDB), SQLite 3 and MongoDB}
-\cvitem{Versioning}{Git and Subversion}
-\cvitem{OS}{Linux (Ubuntu, Cent OS), Mac OS X (10.3 - 10.9), Windows}
+\cvitem{Others}{Git, Subversion, Google Analytics, Twitter Bootstrap, Zurb Foundation}
 
 %------- EXPERIENCE ---------%
 \section{Experience}
-\subsection{Professional}
+\subsection{\textbf{Professional}}
 \cventry{2013--current}{Business Analyst}{Xcite.com}{Alghanim Industries, Kuwait}{}{
 \begin{itemize}
-\item Worked on improving website performance resulting in decrease in page load time from \textbf{11 to 6 secs} 
+\item Worked on improving website performance resulting in decrease in page load time from \textbf{11 to 6 secs}. 
 \item Integrated Akamai's Content Delivery Network to improve caching across mobile apps and website, thereby improving performance by \textbf{40 percent}. 
 \item Improved existing \textbf{Insta-buy feature} and achieved cost-savings by replacing in-house card storage solution with \textbf{payment tokenization} from Cybersource.
 \item Led the project for migrating infrastructure from physical devices to a scalable \textbf{multi-tenant architecture} on cloud resulting in \textbf{cost-savings upto 50 percent}.
-\item Improved sales by scoping and leading the development of project to \textbf{sell digital products} (downloadable content) on Xcite.com 
+\item Improved sales by scoping and leading the development of project to \textbf{sell digital products} (downloadable content) on Xcite.com. 
 \item Worked as \textbf{System Administrator} for managing infrastructure powering desktop, mobile web and mobile apps.
 \begin{itemize}
 \item Administered all technologies responsible for hosting, databases and caching for the entire LAMP stack on RHEL (Apache, Nginx, Memcached, MySQL, Apache SOLR)
@@ -63,14 +62,27 @@
 \end{itemize}
 \end{itemize}}
 
-%------- INTERNSHIPS ---------%
-\subsection{Intern}
-
-\cventry{2012}{Marketing Intern}{Heinz Private Limited}{Mumbai, India}{}{
+%------- FREELANCE ---------%
+\subsection{\textbf{Freelancer}}
+\cventry{2013}{Full Stack Developer}{FMS Fiesta}{PHP, Yii, jQuery}{}{
 \begin{itemize}
-\item Drafted and assisted in implementing a promotions plan to drive sales of new SKUs of Complan.
-\item Analyzed the entire marketing mix for new SKUs, gave suggestions to improve visibility, packaging and co-branding
-\item Conducted extensive market research to understand consumer preferences for jar usage and consumer perception for offers
+\item Designed and developed the website for one of the largest cultural festivals held by an Indian Business School - Faculty of Management Studies, Delhi
+\end{itemize}}
+
+\cventry{2012}{Rails Developer}{OhMyGreen}{Ruby on Rails, Facebook API}{}{
+\begin{itemize}
+\item Single-handedly ported a PHP Symfony app to Ruby on Rails for OhMyGreen (A silicon valley e-commerce startup) featuring a complete registration and referral system.
+\end{itemize}
+}
+
+%------- INTERNSHIPS ---------%
+\subsection{\textbf{Intern}}
+
+\cventry{2012}{Marketing Intern}{Heinz}{Mumbai, India}{}{
+\begin{itemize}
+\item Drafted and assisted in implementing a promotion plan to drive sales of new SKUs of Complan.
+\item Analyzed the entire marketing mix for new SKUs, gave suggestions to improve visibility, packaging and co-branding.
+\item Conducted extensive market research to understand consumer preferences for jar usage and consumer perception for offers.
 \end{itemize}
 }
 
@@ -81,25 +93,12 @@
 \end{itemize}
 }
 
-%------- FREELANCE ---------%
-\subsection{Freelancer}
-\cventry{2013}{Full Stack Developer}{FMS Fiesta}{PHP, Yii, jQuery}{}{
-\begin{itemize}
-\item Designed and developed the website for one of the largest cultural fests held by an Indian Business School - Faculty of Management Studies, Delhi
-\end{itemize}}
-
-\cventry{2012}{Rails Developer}{OhMyGreen}{Ruby on Rails, Facebook API}{}{
-\begin{itemize}
-\item Single-handedly ported a PHP Symfony app to Ruby on Rails for OhMyGreen (A silicon valley e-commerce startup) featuring a complete registration and referral system.
-\end{itemize}
-}
-
 %------- PROJECTS ---------%
 \section{Projects}
 \cvitem{Github}{Complete project list, open source work and repositories on \url{https://github.com/prakhar1989} and \url{http://prakhar.me/projects}}
 \cvitem{Newman}{Newman is a command-line collection runner for Postman. With Newman, postman users can integrate Postman collections with their build system or run automated tests for their API through a cron job. One can also use Newman as a grunt plugin to run their API tests any time you save your code in your editor. Newman is available as a package on NPM \url{https://www.npmjs.org/package/newman} \#nodejs \#javascript \#grunt}
 \cvitem{Postman Interceptor}{Postman Interceptor is a chrome extension that gives Postman wings! It enables Postman to send restricted headers i.e. headers that cannot be sent via XmlHttpRequest like User-Agent, Referrer etc. and send cookie information with any request. Available on \href{https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo}{chrome web store.} \#javascript \#chrome-extension}
-\cvitem{Gettup}{Gettup is a simple command line utility which lets you share and upload files to the ge.tt sharing service quickly and easily. It uses the Ge.tt API to share a file and generate a URL that you can share. It features a LOT of cool options like bulk upload, ability to create shares (a collection of files) and rename files. Gettup is available on Python Package Index \#python}
+\cvitem{Gettup}{Gettup is a simple command line utility which lets you share and upload files to the ge.tt sharing service quickly and easily. It uses the Ge.tt API to share a file and generate a URL that you can share. It features a lot of cool options like bulk upload, ability to create shares (a collection of files) and rename files. Gettup is available on Python Package Index \#python}
 \cvitem{Timelogger}{Timelogger is a Django backed time tracking application for entrprises to help employees track and manage their time spent on projects. Timelogger features a customizable Admin dashboard interface that allows anyone to add projects in varying categories, carry out user management and track leaves. \#django \#python}
 \cvitem{Algorithms}{A collection of 30 famous data-structures and algorithms reimplemented in Python covering Dynamic Programming, Graph Algorithms and String algorithms \#python}
 \cvitem{RecoEngine}{RecoEngine is a movie recommendation engine using the collaborative filtering algorithm \#python}
@@ -108,7 +107,7 @@
 
 %------- INTERESTS ---------%
 \section{Interests}
-\cvitem{Languages}{Love learning and trying out new programming languages (esp functional)}
+\cvitem{Languages}{Love learning and trying out new programming languages (esp. functional)}
 \cvitem{Blogging}{I maintain a frequently updated tech blog at http://prakhar.me/}
 \cvitem{MOOCs}{Algorithms, Statistics, Data Visualization and Machine Learning.}
 \cvitem{Sports}{Competitive Swimmer. Play squash for leisure. Represented State for Basketball}
