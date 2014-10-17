@@ -1,0 +1,198 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}       
+
+% moderncv themes
+\moderncvstyle{casual}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                             % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%onger than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Prakhar}{Srivastav}
+\address{6-19 Salmiya}{Kuwait, 13003}
+\phone[mobile]{+965 9728 0350}
+\email{prakhar1989@gmail.com}
+\homepage{prakhar.me}
+
+\begin{document}
+\makecvtitle
+
+%------- EDUCATION ---------%
+\section{Education}
+\cventry{2013-2011}{PGDM}{Indian Institute of Management, Calcutta}{India}{}{Ranked in top 10 percent of the batch - GPA: 7.12/9.00}
+\cventry{2011--2007}{B.E.(Hons)}{Birla Institute of Technology and Science, Pilani}{Goa, India}{}{Computer Science Engineering - GPA: 7.8/10}
+
+%------- SKILLS ---------%
+\section{Skills}
+\cvitem{Languages}{Python, Javascript, Ruby, HTML5/CSS3, Go, Scala, OCaml, Octave, Java, C/C++}
+\cvitem{Frameworks}{Django, Ruby on Rails, Node.js, Android, Flask, Sinatra, Backbone, jQuery, SASS, Less}
+\cvitem{Cloud}{Heroku, VPS, Google App Engine}
+
+%------- EXPERIENCE ---------%
+\section{Experience}
+\subsection{\textbf{Professional}}
+\cventry{2013--Present}{Business Analyst}{Xcite.com}{Alghanim Industries, Kuwait}{}{
+\begin{itemize}
+    %--- Developer ----%
+    \item \textbf{Software Developer}
+        \begin{itemize}
+        \item Re-built the entire checkout functionality of the website to add the guest checkout feature on Angular.js as a single-page application
+        \item Sole developer on the project to migrate the company's credit sales portal for customers from third-party provider to an in-house solution.
+        \item Built strong \textbf{monitoring and alerting} tools to track uptime, availability and incident reporting.
+    \end{itemize}
+    %--- Business Analyst -----%
+    \item \textbf{Business Analyst}
+    \begin{itemize}
+        \item Worked on improving website performance resulting in decrease in page load time from \textbf{11 to 6 secs}. 
+        \item Improved existing \textbf{Insta-buy feature} and achieved cost-savings by replacing in-house card storage solution with \textbf{payment tokenization} from Cybersource.
+        \item Led the project for migrating infrastructure from physical devices to a scalable \textbf{multi-tenant architecture} on cloud resulting in \textbf{cost-savings upto 50 percent}.
+        \item Improved sales by scoping and leading the development of project to \textbf{sell digital products} (downloadable content) on Xcite.com. 
+    \end{itemize}
+    %---- Devops Engineer ----%
+    \item \textbf{Devops Engineer}
+        \begin{itemize}
+            \item Responsible for managing infrastructure powering desktop, mobile web and mobile apps of one of the \textbf{highest traffic websites} in Kuwait
+            \item Single-handedly responsible for all release, automated deployments, backups and developer environments across multiple channels
+            \item Helped re-engineer the database architecture and led migration from failover replication to \textbf{multi master} for better flexibility and performance.
+        \end{itemize}
+\end{itemize}}
+
+%------- FREELANCE ---------%
+\subsection{\textbf{Freelancer}}
+\cventry{2013}{Full Stack Developer}{FMS Fiesta}{PHP, Yii, jQuery}{}{
+\begin{itemize}
+\item Designed and developed the website for one of the largest cultural festivals held by an Indian Business School - Faculty of Management Studies, Delhi
+\end{itemize}}
+
+\cventry{2012}{Rails Developer}{OhMyGreen}{Ruby on Rails, Facebook API}{}{
+\begin{itemize}
+\item Single-handedly ported a PHP Symfony app to Ruby on Rails for OhMyGreen (A silicon valley e-commerce startup) featuring a complete registration and referral system.
+\end{itemize}
+}
+
+%------- INTERNSHIPS ---------%
+\subsection{\textbf{Intern}}
+
+\cventry{2012}{Marketing Intern}{Heinz Pvt. Limited}{Mumbai, India}{}{
+\begin{itemize}
+\item Drafted and assisted in implementing a promotion plan to drive sales of new SKUs of Complan.
+\item Analyzed the entire marketing mix for new SKUs, gave suggestions to improve visibility, packaging and co-branding. Conducted extensive market research to understand consumer preferences.
+\end{itemize}
+}
+
+\cventry{2011}{Developer Intern}{Travelocity, Sabre Holdings}{Bangalore, India}{}{
+\begin{itemize}
+\item Awarded pre-placement offer for performance and winning affiliate marketing competition during internship.
+\item Successfully deployed an error-checking script to optimize user logging, worked on the mapper algorithm to increase its scalability.
+\end{itemize}
+}
+
+%------- PROJECTS ---------%
+\section{Projects}
+
+\cvitem{Github}{Complete project list, open source work and repositories on \url{https://github.com/prakhar1989} and \url{http://prakhar.me/projects}}
+
+\cvitem{Newman}{Newman is a command-line collection runner for Postman. With Newman, postman users can integrate Postman collections with their build system or run automated tests for their API through a cron job. One can also use Newman as a grunt plugin to run their API tests any time you save your code in your editor. Newman is available as a package on NPM \url{https://www.npmjs.org/package/newman} \#nodejs \#javascript \#grunt}
+
+\cvitem{Postman Interceptor}{Postman Interceptor is a chrome extension that gives Postman wings! It enables Postman to send restricted headers i.e. headers that cannot be sent via XmlHttpRequest like User-Agent, Referrer etc. and send cookie information with any request. Available on \href{https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo}{chrome web store.} \#javascript \#chrome-extension}
+
+\cvitem{Timelogger}{Timelogger is a Django backed time tracking application for entrprises to help employees track and manage their time spent on projects. Timelogger features a customizable Admin dashboard interface that allows anyone to add projects in varying categories, carry out user management and track leaves. \#django \#python}
+
+\cvitem{Algorithms}{A collection of 30 essential data-structures and algorithms reimplemented in Python covering Dynamic Programming, Graph Algorithms and String algorithms \#python}
+
+\cvitem{Loops}{Loops is a web-based music player that allows users to listen to music directly from the web browser. It is Single Page Web App (SPA)  built without a JS MVC framework with flask as a minimal backend. \#javascript \#flask \#python}
+
+%------- ONLINE COURSES --------%
+\section{Online Courses}
+
+    %---- COURSERA ---- %
+    \subsection{\textbf{Coursera}}
+    
+        \cventry{2014}{Mining Massive DataSets}{Stanford}{Data Mining, Machine Learning}{}{
+            \begin{itemize}
+            \item A graduate-level CS course by Anand Rajaraman et al
+            \end{itemize}
+        }
+        
+        \cventry{2013}{Functional Programming in Scala}{EPFL}{Functional Programming}{}{
+            \begin{itemize}
+            \item Completed Course with 96.2\% marks and achieved distinction
+            \item Learnt higher order functions, pattern matching and lazy evaluation
+            \item Project: Built a code search engine in Scala for Stripe's Capture the Flag competition. Ranked in top 1000 worldwide.
+            \end{itemize}
+        }
+        
+        \cventry{2012}{Machine Learning}{Stanford}{Machine Learning}{}{
+            \begin{itemize}
+            \item Completed Course with 100\% marks and achieved distinction
+            \item Learnt machine learning algorithms like regression, neural networks and support-vector machines
+            \item Project: Built a movie recommendation engine using Collaborative Filtering in Python for Data Mining course in IIM Calcutta. Achieved highest grade and topped the course. 
+            \end{itemize}
+        }
+        
+        \cventry{2013}{Computing for Data Analytics}{John Hopkins}{Statistics}{}{
+            \begin{itemize}
+            \item Learnt programming in R, doing data analysis and creating data graphics in R.
+            \end{itemize}
+        }
+    
+    \subsection{\textbf{Udacity}}
+        \cventry{2014}{Developing Android Apps}{Google}{Java}{}{
+            \begin{itemize}
+            \item Learnt UI development, connecting to the cloud and running services in Android Apps
+            \item Project: Built an Android game - Colorphun and released it on the Google Play Store
+            \end{itemize}
+        }
+        \cventry{2012}{Web Development}{Steve Huffman}{Python}{}{
+            \begin{itemize}
+            \item Learnt MVC design pattern, deployment on Google App Engine and scaling the application.
+            \item Project: JokaStore: Built an e-commerce store from scratch for a venture as a part of Entrepreneurship course at IIM Calcutta. Project was hugely popular and was featured in India's leading daily - The Hindu.
+            \end{itemize}
+        }
+        
+%---- RELEVANT COURSEWORK ------%
+\section{Relevant Coursework}
+    \cvitem{IIM Calcutta}{Business Data Mining, Marketing Research, Macro \& Micro Economics, Information Technology, Operations Research, Managing Information Systems, Managing New Ventures, IT and Business Innovation, Marketing for High-Tech and Innovation.}
+    \cvitem{BITS}{Data Structures and Algorithms, Operating Systems, Theory of Computation, Database Systems, Advanced Computer Organization, Discrete Structures for Computer Science, Computer Programming I\&II, Object Oriented Programming.}
+
+
+%------ AWARDS AND HONORS ------%
+\section{Awards and Honors} 
+    \cvitem{2013}{Ranked in top 10\% of the batch at IIM Calcutta}
+    \cvitem{2011}{Secured 99.80 \%ile in CAT 2011 amongst 300,000 students}
+    \cvitem{2010}{Placed in top 5 at Sastra’10 – International Technical Festival of IIT Madras}
+    \cvitem{2008}{Ranked 5th in ‘Mathematics Aptitude Test’ in a batch of over 600 students at BITS in ‘09}
+    \cvitem{2007}{1st among 70 teams in Robotics Competition at Quark '07 – National Technical Festival of BITS}
+    \cvitem{2007}{State Rank 334 and All India Rank 3989 in AIEEE ‘07 taken by over 644,000 students}
+    \cvitem{2006}{Scholar Badge for 3 consecutive years from ‘03 to ‘06 at Delhi Public School for academic excellence}
+        
+%----- EXTRA CURRICULAR ACTIVITIES -----%
+\section{Extra-Curricular Activities}
+    
+    \subsection{\textbf{Positions of Responsibility}}  
+        \cvitem{2012}{IT Head, Consulting Club - Developed the club's website with an inbuilt blogging platform}
+        \cvitem{2011}{Member, IT Solutions Group - Developed the election portal, the course registration portal and research tracking portals for IIM Calcutta.}
+        \cvitem{2010}{Core Member, Spree BITS - Designed merchandise and handled IT for the entire event.}
+        \cvitem{2009}{Event Manager, Quark BITS - Organized the popular gaming event with a footfall of 75 teams.}
+        
+    \subsection{\textbf{Sports}}
+        \cvitem{2007}{3rd Position in District Level Basketball Championship Sports}
+        \cvitem{2006}{1st position in 100m Freestyle in Swimming Meet}
+
+
+%------- INTERESTS ---------%
+\section{Interests}
+    \cvitem{Languages}{Love learning and trying out new programming languages (esp. functional)}
+    \cvitem{Blogging}{I maintain a frequently updated tech blog at http://prakhar.me/}
+    \cvitem{Featured on}{The Economic Times, The Hindu, The ChangeLog, PyCoder's Weekly}
+
+\clearpage
+\end{document}
